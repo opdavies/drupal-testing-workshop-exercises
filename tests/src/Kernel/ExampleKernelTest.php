@@ -2,7 +2,7 @@
 
 namespace Drupal\Tests\drupaltest\Kernel;
 
-use Drupal\drupaltest\Services\UserDeleter;
+use Drupal\drupaltest\Service\UserDeleter;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Drupal\user\Entity\User;
 

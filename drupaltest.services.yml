@@ -1,2 +1,2 @@
 services:
-  Drupal\drupaltest\Services\UserDeleter: ~
+  Drupal\drupaltest\Service\UserDeleter: ~

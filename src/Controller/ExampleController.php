@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\drupaltest\Controllers;
+namespace Drupal\drupaltest\Controller;
 
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 
