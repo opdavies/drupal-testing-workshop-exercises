@@ -1,4 +1,2 @@
 services:
-  drupaltest.user_deleter:
-    class: 'Drupal\drupaltest\Services\UserDeleter'
-    arguments: []
+  Drupal\drupaltest\Services\UserDeleter: ~

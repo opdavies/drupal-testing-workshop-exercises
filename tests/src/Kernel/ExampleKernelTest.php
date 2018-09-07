@@ -2,6 +2,7 @@
 
 namespace Drupal\Tests\drupaltest\Kernel;
 
+use Drupal\drupaltest\Services\UserDeleter;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Drupal\user\Entity\User;
 
@@ -20,13 +21,11 @@ class ExampleKernelTest extends EntityKernelTestBase {
 
     $this->assertInstanceOf(User::class, $user);
 
-    /** @var \Drupal\drupaltest\Services\UserDeleter $user_deleter */
-    $user_deleter = \Drupal::service('drupaltest.user_deleter');
-    $user_deleter->delete($user);
+    \Drupal::service(UserDeleter::class)->delete($user);
 
     $user = $this->reloadEntity($user);
 
     $this->assertNull($user);
   }
-  
+
 }
