@@ -1,14 +1,14 @@
 <?php
 
-namespace Drupal\Tests\drupaltest\Kernel;
+namespace Drupal\Tests\workshop\Kernel;
 
-use Drupal\drupaltest\Service\UserDeleter;
+use Drupal\workshop\Service\UserDeleter;
 use Drupal\KernelTests\Core\Entity\EntityKernelTestBase;
 use Drupal\user\Entity\User;
 
 class ExampleKernelTest extends EntityKernelTestBase {
 
-  public static $modules = ['drupaltest'];
+  public static $modules = ['workshop'];
 
   protected function setUp() {
     parent::setUp();

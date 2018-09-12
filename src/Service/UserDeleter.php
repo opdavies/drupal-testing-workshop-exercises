@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\drupaltest\Service;
+namespace Drupal\workshop\Service;
 
 use Drupal\Core\Session\AccountInterface;
 

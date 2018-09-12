@@ -1,6 +1,0 @@
-drupaltest.example:
-  path: '/example-one'
-  defaults:
-    _controller: 'Drupal\drupaltest\Controller\ExampleController::index'
-  requirements:
-    _access: 'TRUE'

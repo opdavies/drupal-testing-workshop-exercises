@@ -1,0 +1,6 @@
+workshop.example:
+  path: '/example-one'
+  defaults:
+    _controller: 'Drupal\workshop\Controller\ExampleController::index'
+  requirements:
+    _access: 'TRUE'

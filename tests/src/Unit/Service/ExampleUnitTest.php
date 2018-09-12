@@ -1,8 +1,8 @@
 <?php
 
-namespace Drupal\Tests\drupaltest\Unit;
+namespace Drupal\Tests\workshop\Unit;
 
-use Drupal\drupaltest\Service\Calculator;
+use Drupal\workshop\Service\Calculator;
 use Drupal\Tests\UnitTestCase;
 
 class ExampleUnitTest extends UnitTestCase {

@@ -1,0 +1,2 @@
+services:
+  Drupal\workshop\Service\UserDeleter: ~
